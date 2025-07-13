@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[本本萨鱼] - 主页</title>
+    <style>
+        /* 基础样式 */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* 导航栏 */
+        nav {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        nav li {
+            margin: 0 15px;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        
+        nav a:hover {
+            color: #3498db;
+        }
+        
+        /* 各部分样式 */
+        section {
+            padding: 60px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        /* 页脚 */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav>
+        <ul>
+            <li><a href="#home">首页</a></li>
+            <li><a href="#about">关于我</a></li>
+            <li><a href="#portfolio">作品集</a></li>
+            <li><a href="#blog">博客</a></li>
+            <li><a href="#contact">联系我</a></li>
+        </ul>
+    </nav>
+
+    <!-- 首页 -->
+    <section id="home" style="text-align: center; padding: 100px 0;">
+        <div class="container">
+            <h1>hallo，我是本本萨鱼</h1>
+            <p>[一位抽象之人(bushi]</p>
+            <button style="background: #3498db; color: white; border: none; padding: 10px 20px; margin-top: 20px; cursor: pointer;">了解更多</button>
+        </div>
+    </section>
+
+    <!-- 关于我们 -->
+    <section id="about">
+        <div class="container">
+            <h2>关于我</h2>
+            <div style="display: flex; align-items: center; gap: 30px;">
+                <img src="20250713_20051649.png" width="400" height="200">
+                <div>
+                    <p>只是一条鱼而已啦！</p>
+                    <h3>会干的事</h3>
+                    <ul>
+                        <li>1.吃饭</li>
+                        <li>2.睡觉</li>
+                        <li>3.打豆豆</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 作品集 -->
+    <section id="portfolio" style="background: #f1f1f1;">
+        <div class="container">
+            <h2>我的作品</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px;">
+                <!-- 项目1 -->
+                <div style="background: white; padding: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                    <h3>特拉累咯特拉拉拉</h3>
+                    <p>？？？</p>
+                    <a href="https://www.douyin.com/user/MS4wLjABAAAALIDksA5d6MwEV0GKtJ4Xq3tzmIESyaL7ypD-pVBvYyw?modal_id=7496371724267572506">查看详情</a>
+                </div>
+                
+                <!-- 项目2 -->
+                <div style="background: white; padding: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                    <h3>大家好！</h3>
+                    <p>第一条作品！(快手)</p>
+                    <a href="https://www.kuaishou.com/short-video/3x6fcrg8rwc963e?authorId=3xg33n45ghvhdpg&streamSource=profile&area=profilexxnull">查看详情</a>
+                </div>
+                
+                <!-- 项目3 -->
+                <div style="background: white; padding: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                    <h3>？？？</h3>
+                    <p>~</p>
+                    <a href="https://www.bilibili.com/video/BV1kmNdzxEzn/?spm_id_from=333.1387.homepage.video_card.click">查看详情</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 博客/文章 -->
+    <section id="blog">
+        <div class="container">
+            <h2>最新文章</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px;">
+                <!-- 文章1 -->
+                <div style="background: white; padding: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                    <h3>谁给我点份外卖啊！！！！</h3>
+                    <p>~~~</p>
+                    <a href="https://www.meituan.com/">阅读更多</a>
+                </div>
+                
+                <!-- 文章2 -->
+                <div style="background: white; padding: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                    <h3>瑟瑟的~</h3>
+                    <p>😻😻😻</p>
+                    <a href="shaoyuniubi.html">阅读更多</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我 -->
+    <section id="contact" style="background: #f1f1f1;">
+        <div class="container">
+            <h2>联系我</h2>
+            <div style="display: flex; gap: 40px;">
+                <div style="flex: 1;">
+                    <p>欢迎通过以下方式联系我：</p>
+                    <ul>
+                        <li>邮箱: 3886884207@qq.com</li>
+                        
+                        <li>社交媒体: 
+                            <a href="https://www.douyin.com/user/MS4wLjABAAAALIDksA5d6MwEV0GKtJ4Xq3tzmIESyaL7ypD-pVBvYyw?from_tab_name=main">douyin:本本萨鱼</a>, 
+                            <a href="https://www.kuaishou.com/profile/3xg33n45ghvhdpg">快手:本本萨鱼</a>, 
+                            <a href="https://space.bilibili.com/2131024196?spm_id_from=333.337.0.0">Blibli:本本萨鱼</a>
+                        </li>
+                    </ul>
+                </div>
+                <div style="flex: 1;">
+                    <form>
+                        <div style="margin-bottom: 15px;">
+                            <label for="name">姓名:</label>
+                            <input type="text" id="name" style="width: 100%; padding: 8px;">
+                        </div>
+                        <div style="margin-bottom: 15px;">
+                            <label for="email">邮箱:</label>
+                            <input type="email" id="email" style="width: 100%; padding: 8px;">
+                        </div>
+                        <div style="margin-bottom: 15px;">
+                            <label for="message">留言:</label>
+                            <textarea id="message" style="width: 100%; padding: 8px; height: 100px;"></textarea>
+                        </div>
+                        <button type="submit" style="background: #3498db; color: white; border: none; padding: 10px 20px; cursor: pointer;">发送</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 [benben sayu]. 保留所有权利.</p>
+        </div>
+    </footer>
+</body>
+</html>
